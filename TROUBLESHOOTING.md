@@ -190,7 +190,7 @@ Las columnas no se alinean o la tabla aparece como texto plano.
 
 2. **Mismo número de columnas:** Todas las filas deben tener el mismo número de separadores `|`.
 
-3. **Línea separadora:** Debe contener al menos 3 guiones (`---`) por columna.
+3. **Línea separadora:** Debe contener al menos un guion (`-`) por columna.
 
 4. **Generadores de tablas:** Usa herramientas como [Tables Generator](https://www.tablesgenerator.com/markdown_tables) para crear tablas complejas.
 
