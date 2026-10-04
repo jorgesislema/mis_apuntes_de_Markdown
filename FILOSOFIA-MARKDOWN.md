@@ -92,7 +92,7 @@ Los archivos Markdown de hoy serán legibles en 50 años. No dependen de:
 ### 1. Documentación de Software
 Los desarrolladores adoptaron Markdown porque permite documentar código de manera natural:
 
-```markdown
+````markdown
 ## Instalación
 
 ```bash
@@ -105,7 +105,7 @@ npm install mi-libreria
 const lib = require('mi-libreria');
 lib.hacer('algo-increible');
 ```
-```
+````
 
 ### 2. Escritura Académica
 Los académicos usan Markdown con herramientas como Pandoc para escribir papers que se pueden convertir a LaTeX, Word, o HTML:
@@ -166,4 +166,4 @@ John Gruber no solo creó un lenguaje de marcado; creó una manera de pensar sob
 
 **Próximo**: [Sintaxis Fundamental](00-SINTAXIS-FUNDAMENTAL/) - Aprende los elementos básicos que hacen posible esta filosofía.
 
-**Nota histórica**: El primer borrador de la especificación de Markdown fue publicado el 19 de marzo de 2004. El resto, como dicen, es historia.
+**Nota histórica**: La primera descripción pública de la sintaxis de Markdown se publicó en agosto de 2004. El resto, como dicen, es historia.
