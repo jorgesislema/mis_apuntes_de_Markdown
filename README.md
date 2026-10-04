@@ -11,65 +11,68 @@ Una guía completa y profesional de Markdown con ejemplos reales y conceptos ext
 ## Estructura del Repositorio
 
 ```
-enciclopedia-markdown/
+mis_apuntes_de_Markdown/
 ├── README.md
 ├── FILOSOFIA-MARKDOWN.md
+├── FAQ.md
+├── TROUBLESHOOTING.md
 │
 ├── 00-SINTAXIS-FUNDAMENTAL/
-│   ├── 0.1 - ¿Qué es Markdown y por qué es fundamental?.md
+│   ├── 0.1 - Que es Markdown y por que es fundamental.md
 │   ├── 0.2 - Encabezados (La estructura de tu documento).md
-│   ├── 0.3 - Párrafos y Saltos de Línea (El flujo del texto).md
-│   ├── 0.4 - Énfasis: Negrita, Cursiva y Tachado.md
-│   ├── 0.5 - Listas: Ordenadas y Desordenadas.md
-│   └── 0.6 - Enlaces e Imágenes (Conectando con el mundo).md
+│   ├── 0.3 - Parrafos y Saltos de Linea (El flujo del texto).md
+│   ├── 0.4 - Enfasis Negrita Cursiva y Tachado.md
+│   ├── 0.5 - Listas Ordenadas y Desordenadas.md
+│   └── 0.6 - Enlaces e Imagenes (Conectando con el mundo).md
 │
 ├── 01-SINTAXIS-AVANZADA/
 │   ├── 1.1 - Citas en Bloque (Blockquotes).md
-│   ├── 1.2 - Bloques de Código (Fenced Code Blocks) y Resaltado de Sintaxis.md
-│   ├── 1.3 - Tablas: Estructurando Datos.md
+│   ├── 1.2 - Bloques de Codigo (Fenced Code Blocks) y Resaltado de Sintaxis.md
+│   ├── 1.3 - Tablas Estructurando Datos.md
 │   ├── 1.4 - Listas de Tareas (Task Lists).md
 │   ├── 1.5 - Reglas Horizontales.md
-│   └── 1.6 - Escapando Caracteres (Cómo escribir caracteres especiales).md
+│   └── 1.6 - Escape de Caracteres Especiales.md
 │
 ├── 02-LOS-DIALECTOS-DE-MARKDOWN/
-│   ├── 2.1 - ¿Por qué existen diferentes "sabores" de Markdown?.md
-│   ├── 2.2 - CommonMark (El intento de un estándar).md
-│   ├── 2.3 - GitHub Flavored Markdown - GFM (El dialecto más popular).md
+│   ├── 2.1 - Por que existen diferentes sabores de Markdown.md
+│   ├── 2.2 - CommonMark (El intento de un estandar).md
+│   ├── 2.3 - GitHub Flavored Markdown - GFM (El dialecto mas popular).md
 │   ├── 2.4 - MultiMarkdown, Markdown Extra y otros.md
 │   └── 2.5 - Tabla Comparativa de Funcionalidades por Dialecto.md
 │
 ├── 03-SUPERPODERES-MARKDOWN-EXTENDIDO/
-│   ├── 3.1 - El Santo Grial: Incrustando HTML para una personalización total.md
+│   ├── 3.1 - El Santo Grial Incrustando HTML para una personalización total.md
 │   ├── 3.2 - Diagramas como Código con Mermaid.js.md
 │   ├── 3.3 - Ecuaciones Matemáticas con LaTeX (KaTeX).md
 │   └── 3.4 - Notas al Pie y Definiciones.md
 │
 ├── 04-MARKDOWN-EN-EL-MUNDO-REAL/
-│   ├── 4.1 - Documentación de Software (La columna vertebral de GitHub).md
-│   ├── 4.2 - Blogging y Sitios Web Estáticos (Jekyll, Hugo, Astro).md
-│   ├── 4.3 - Gestión del Conocimiento Personal - PKM (Obsidian, Joplin, Notion).md
-│   ├── 4.4 - Escritura Académica y Científica (Usando Pandoc).md
-│   └── 4.5 - Creación de Presentaciones (Marp, Deckset).md
+│   ├── 4.1 - Markdown en GitHub - El lenguaje de la colaboración.md
+│   ├── 4.2 - Markdown en Documentación Técnica de Software.md
+│   ├── 4.3 - Markdown para Blogs Técnicos y Publicaciones.md
+│   ├── 4.4 - Markdown en Educación y Academia.md
+│   ├── 4.5 - Markdown en Aplicaciones de Productividad.md
+│   └── 4.6 - Markdown en Equipos y Empresas.md
 │
 ├── 05-EL-ECOSISTEMA-DE-HERRAMIENTAS/
-│   ├── 5.1 - Editores de Markdown (VS Code, Obsidian, Typora, iA Writer).md
-│   ├── 5.2 - Conversores Universales de Documentos (Pandoc).md
-│   ├── 5.3 - Linters y Formateadores (Prettier, Markdownlint).md
-│   └── 5.4 - Frameworks y Generadores de Sitios Estáticos.md
+│   ├── 5.1 - Editores Especializados en Markdown.md
+│   ├── 5.2 - Convertidores y Procesadores de Markdown.md
+│   ├── 5.3 - Extensiones y Plugins para Markdown.md
+│   ├── 5.4 - Linters y Formatters para Markdown.md
+│   └── 5.5 - Entornos de desarrollo para Markdown.md
 │
 ├── 06-GUIAS-DE-ESTILO-Y-BUENAS-PRACTICAS/
-│   ├── 6.1 - ¿Por qué una guía de estilo para Markdown? (Legibilidad y Mantenimiento).md
-│   ├── 6.2 - Consistencia en Encabezados y Estructura.md
-│   ├── 6.3 - Manejo de Saltos de Línea y Párrafos.md
-│   ├── 6.4 - Escribiendo Tablas Limpias y Legibles.md
-│   └── 6.5 - Optimizando Imágenes y Enlaces para la Portabilidad.md
+│   ├── 6.1 - Principios Fundamentales para Documentos Markdown.md
+│   ├── 6.2 - Guías de Estilo de Markdown Populares.md
+│   ├── 6.3 - Patrones de Organización para Proyectos Markdown.md
+│   └── 6.4 - Optimización de Markdown para SEO y Accesibilidad.md
 │
 └── 07-RECETAS-Y-CASOS-DE-USO/
-    ├── 7.1 - Receta: Cómo escribir un README.md perfecto para un proyecto.md
-    ├── 7.2 - Receta: Cómo crear un Curriculum Vitae usando solo Markdown.md
-    ├── 7.3 - Receta: Cómo escribir y publicar un post para un blog técnico.md
-    ├── 7.4 - Receta: Cómo tomar notas de una reunión de forma eficiente.md
-    └── 7.5 - Receta: Cómo crear una presentación sencilla con Marp.md
+    ├── 7.1 - Creando un CV en Markdown.md
+    ├── 7.2 - Notas para estudiantes y resúmenes de cursos.md
+    ├── 7.3 - Documentación técnica y tutoriales.md
+    ├── 7.4 - Blogs y publicaciones técnicas.md
+    └── 7.5 - Presentaciones y materiales didácticos.md
 ```
 
 ## 🧭 Navegación Rápida
