@@ -121,7 +121,7 @@ La calidad de la conversión puede variar según la complejidad del documento or
 ## Casos de Uso Avanzados
 
 ### ¿Cómo puedo incluir notas al pie de página?
-En muchas implementaciones (incluido GitHub Flavored Markdown):
+En muchas implementaciones (como Pandoc, MultiMarkdown, Obsidian y Jupyter):
 
 ```markdown
 Aquí hay un texto con una nota al pie[^1].
